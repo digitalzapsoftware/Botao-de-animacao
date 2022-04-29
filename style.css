@@ -1,0 +1,21 @@
+.button {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 3px solid hsl(225, 75%, 56%);
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.button:hover {
+    animation: pulsate 1s ease-in-out;
+    background-color:#FFCB36;
+}
+
+@keyframes pulsate {
+    10%{
+        box-shadow: 0 0 0 5px #5ddcff, 0 0 5px #4e00c2;
+    }
+}
