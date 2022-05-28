@@ -1,2 +1,2 @@
 # Botao-de-animacao
- Botão de animação para ultilizar em projetos
+ Botão de animação para ultilizar em projetos.
